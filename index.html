@@ -674,19 +674,25 @@
             <div class = "info-box mb4"
              
 
-            <form
-    name="contact"
-    data-netlify="true"
-    data-netlify-honeypot="bot-field"
->
-  <input type="text" name="name" id="formName" >
-  <input type="email" name="email" id="formEmail">
-  <textare
-    id="formMessage"
-    name="message"
-  ></textarea>
-
-  <input type="hidden" name="form-name" value="contact" />
+            <form name="contact2" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name2" /></label>
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email2" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message2"></textarea></label>
+  </p>
+  <p>
+    <button type="submit" name="sub">Send</button>
+  </p>
 </form>
             </div>
 
