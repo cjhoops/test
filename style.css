@@ -1930,9 +1930,7 @@ section {
     z-index: -1;
     transition: width .3s;
   }
-  #contact .cs-button-solid:hover {
-    color: #fff;
-  }
+
   #contact .cs-button-solid:hover:before {
     width: 100%;
   }
