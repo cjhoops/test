@@ -1473,7 +1473,7 @@ section {
 
 
   @media (max-width: 600px) {
-  person.png {
+  person {
     display: none;
   }
 }
