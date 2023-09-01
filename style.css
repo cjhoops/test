@@ -1470,6 +1470,13 @@ section {
     /* 60px - 100px top and bottom */
     --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
   }
+
+
+  @media (max-width: 600px) {
+  #about .cs-image {
+    display: none;
+  }
+}
   #about {
     /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
     font-family: "Raleway", sans-serif;
@@ -1540,6 +1547,7 @@ section {
     position: relative;
   }
   #about .cs-image {
+    
     width: 100%;
     max-width: 31.875rem;
     height: auto;
