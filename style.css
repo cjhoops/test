@@ -1871,7 +1871,7 @@ section {
   }
   #contact .cs-input {
     font-size: 1rem;
-    width: 50%;
+    width: 80%;
     /* 46px - 56px */
     height: clamp(2.875rem, 4.5vw, 3.5rem);
     padding: 0;
