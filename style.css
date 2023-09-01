@@ -119,7 +119,9 @@ h6 {
 --------------------------------------------------------------*/
 @media only screen and (max-width: 500px) {
 #topbar  {
-display: none }
+position: absolute;
+visibility:hidden;
+display:none;  }
 }
 #topbar {
   background: #191919;
