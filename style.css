@@ -1473,7 +1473,7 @@ section {
 
 
   @media only screen and (max-width: 500px) {
-  person {
+  #person {
     display: none;
   }
 }
