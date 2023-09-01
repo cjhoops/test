@@ -1931,9 +1931,7 @@ section {
     
   }
 
-  #contact .cs-button-solid:hover:before {
-    width: 100%;
-  }
+ 
   #contact .cs-submit {
     width: 50%;
     margin: 0;
