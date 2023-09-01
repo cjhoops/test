@@ -1472,8 +1472,8 @@ section {
   }
 
 
-  @media only screen and (max-width: 500px) {
-  #person {
+  @media only screen and (max-width: 600px) {
+  .cs-image img {
     display: none;
   }
 }
