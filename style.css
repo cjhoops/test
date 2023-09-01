@@ -1085,7 +1085,8 @@ section {
 --------------------------------------------------------------*/
   @media only screen and (max-width: 600px) {
   .team .member {
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 .team .member {
