@@ -1915,7 +1915,7 @@ section {
     z-index: 1;
     /* prevents padding from adding to the width */
     
-    transition: color .3s;
+    
   }
   #contact .cs-button-solid:before {
     content: '';
@@ -1928,7 +1928,7 @@ section {
     top: 0;
     left: 0;
     z-index: -1;
-    transition: width .3s;
+    
   }
 
   #contact .cs-button-solid:hover:before {
