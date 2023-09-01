@@ -117,7 +117,7 @@ h6 {
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
-@media only screen and (min-width: 500px) {
+@media only screen and (max-width: 500px) {
 #topbar  {
 display: none !important;}
 }
