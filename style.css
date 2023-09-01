@@ -1473,7 +1473,7 @@ section {
 
 
   @media (max-width: 600px) {
-  #about .cs-image {
+  person.png {
     display: none;
   }
 }
