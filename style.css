@@ -118,7 +118,7 @@ h6 {
 # Top Bar
 --------------------------------------------------------------*/
 @media screen and (min-width: 480px) {
-    #container d-flex justify-content-center justify-content-md-between {
+    #topbar .d-flex align-items-center {
         visibility: hidden;
     }
 }
