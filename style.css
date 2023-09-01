@@ -117,7 +117,11 @@ h6 {
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
-
+@media screen and (min-width: 480px) {
+    #container d-flex justify-content-center justify-content-md-between {
+        visibility: hidden;
+    }
+}
 #topbar {
   background: #191919;
   font-size: 15px;
