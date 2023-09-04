@@ -2002,3 +2002,8 @@ section {
   #contact .cs-item:hover:before {
     opacity: 1;
   }
+  @media screen and (max-width: 768px) {
+  #contact .col-lg-6 .mb-lg-0 {
+    display: none;
+  }
+}
